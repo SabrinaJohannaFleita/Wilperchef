@@ -43,9 +43,6 @@ margin-left: 50px;
 .about {
     background-color: black
 }
-.sobremi {
-
-}
 .img-willy {
     margin-top: 30px;
  width: 450px;
@@ -54,8 +51,21 @@ margin-left: 50px;
 .abautme {
 display: flex;
 }
-.plat {
-    
+.imagenes¿ {
+    margin-top: 100px;
+}
+.fotowi {
+    width: 450px;
+    height: 400px;
+}
+.fotowi:hover {
+    width: 650px;
+    height: 600px;
+}
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .platos { 
     margin-top: 30px;
@@ -104,10 +114,40 @@ display: flex;
 @media screen and (max-width: 980px) {
     .navegacion {
         width: 70%;
+        margin-left: 100px;
         display: flex;
         flex-direction: column;}
     .descripcion {
         display: flex;
         flex-direction: column;
+        }
+        .divfooter {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        #imgcont {
+            width: 400;
+            height: 250;
+        }
+        .abautme{
+            display: block;
+        }
+        .platillos {
+            display: block;
+        }
+        .sec-imagenes {
+            margin-left: 50px;
+        }
+        .images {
+            display: block;
+        }
+        #pla {
+           width: 200px ;
+           height: 200px;
+           margin-top: 50px;
+           margin-left: 100px;
+           margin-bottom: 50px;
+
         }
     }
