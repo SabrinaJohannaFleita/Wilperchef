@@ -1,0 +1,113 @@
+body {
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.7em;
+    margin: 0;
+    color: white;
+    background-color: black;
+    background-image: url(fondo\ 666.jpg);
+    background-repeat: no-repeat;
+}
+
+#logo {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 250px;
+    height: 250px;
+}
+nav {
+    margin-top: 50px;
+display: flex;
+}
+.navegacion {
+ width: 90%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.1em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.barra {
+    background-color: black;
+    padding: 4px;
+}
+.section {
+    margin-top: 80px;
+margin-left: 50px;
+}
+.about {
+    background-color: black
+}
+.sobremi {
+
+}
+.img-willy {
+    margin-top: 30px;
+ width: 450px;
+ height: 500px;
+}
+.abautme {
+display: flex;
+}
+.plat {
+    
+}
+.platos { 
+    margin-top: 30px;
+    display: grid;
+    width: 350px;
+    height: 350px;
+}
+.platillos {
+    display: flex;
+}
+.plates {
+    margin-left: 10px;
+}
+.sec-contacto {
+    margin-top: 100px;
+}
+.contacte {
+    display: flex;
+    justify-content: center;
+}
+#imgcont {
+    width: 700px;
+    height: 450px;
+}
+#contact {
+   display: flex;
+   justify-content: center;
+}
+#inicio, #sobremi, #cont, #loguearse {
+    color: white;
+    text-decoration: none;
+}
+.divfooter {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    
+}
+#imgfooter {
+    width: 100px;
+    height: 100px;
+}
+#wp {
+    margin-left: 15px;
+}
+@media screen and (max-width: 980px) {
+    .navegacion {
+        width: 70%;
+        display: flex;
+        flex-direction: column;}
+    .descripcion {
+        display: flex;
+        flex-direction: column;
+        }
+    }
